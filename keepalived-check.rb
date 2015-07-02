@@ -102,7 +102,7 @@ Accept = Proc.new do
 		accept :notification_email_from, Amail
 		accept :smtp_server, Ahost
 		accept :smtp_connect_timeout, Aint
-		accept_one :router_id, Astr
+		accept_one :router_id, Ahost
 		accept_one :lvs_id, Astr
 	end
 
